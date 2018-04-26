@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="MemoryMatchingGame.WinScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MemoryMatchingGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,-694,-587">
+        <Button x:ConnectionId='1' x:Name="PlayAgainButton" Content="Play Again" HorizontalAlignment="Left" Margin="706,734,0,0" VerticalAlignment="Top" FontSize="24" Height="100" Width="225"                              />
+        <Button x:ConnectionId='2' x:Name="QuitGameButton" Content="Quit Game" HorizontalAlignment="Left" Margin="706,887,0,0" VerticalAlignment="Top" FontSize="24" Height="100" Width="225"                             />
+        <TextBox x:ConnectionId='3' x:Name="WinText" HorizontalAlignment="Left" Margin="618,332,0,0" TextWrapping="Wrap" Text="Congratulations, You've Won!" VerticalAlignment="Top" Height="46" Width="391" FontSize="24" FontFamily="Elephant"/>
+
+    </Grid>
+</Page>
+
